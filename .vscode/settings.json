@@ -1,0 +1,8 @@
+{
+    "json.personalSchemas": [{
+            "fileMatch": ["manifest.json"],
+            "url": "http://json.schemastore.org/webextension"
+        },
+
+    ]
+}
