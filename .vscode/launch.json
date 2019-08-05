@@ -1,0 +1,34 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [{
+            "type": "firefox",
+            "request": "launch",
+            "reAttach": true,
+            "reloadOnAttach": true,
+            "name": "Debug add-on",
+            "addonPath": "${workspaceFolder}\\dist",
+            "popupAutohideButton": true,
+            "showConsoleCallLocation": false,
+            "reloadOnChange": {
+                "watch": [
+                    "${workspaceFolder}/*/**/*.js",
+                ],
+            },
+            // "log": {
+            //     "fileName": "${workspaceFolder}/vsc-firefox-addon.log",
+            //     "fileLevel": {
+            //         "default": "Debug"
+            //     }
+            // },
+            "sourceMaps": "client",
+            "pathMappings": [{
+                "url": "moz-extension://src/",
+                "path": "${workspaceFolder}/src/"
+            }],
+        },
+
+    ]
+}
