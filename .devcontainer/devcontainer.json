@@ -1,0 +1,9 @@
+// See https://aka.ms/vscode-remote/devcontainer.json for format details.
+{
+    "name": "Firefox webextension",
+    "dockerFile": "Dockerfile",
+    "postCreateCommand": "npm install",
+    "extensions": [
+        "ms-vscode.vscode-typescript-tslint-plugin",
+    ],
+}
