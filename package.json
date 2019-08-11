@@ -1,6 +1,6 @@
 {
     "name": "gtm-webext",
-    "version": "1.0.0-beta",
+    "version": "1.0.0",
     "description": "Firefox addon to track time spent on websites using GTM and Firefox contextual identities",
     "dependencies": {},
     "devDependencies": {
